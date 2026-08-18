@@ -8,6 +8,9 @@ from tkinter import filedialog, messagebox, ttk
 from pathlib import Path
 from datetime import datetime
 
+# This Program used for mergin multiple files into one cbz file and renaming images sequentially across all archives.
+
+
 # Optional RAR support
 try:
     import rarfile
